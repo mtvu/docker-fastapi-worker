@@ -1,0 +1,110 @@
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Fail to get yarn configuration. node:events:304
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:194:8)
+    at errorOrDestroy (node:internal/streams/destroy:257:7)
+    at node:internal/fs/streams:193:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+[I 00:17:14.606 LabApp] JupyterLab extension loaded from /home/abeo/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/jupyterlab
+[I 00:17:14.606 LabApp] JupyterLab application directory is /home/abeo/.pyenv/versions/miniconda3-latest/share/jupyter/lab
+[I 00:17:14.900 LabApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 00:17:14.902 LabApp] Serving notebooks from local directory: /home/abeo/work/docker-fastapi-worker
+[I 00:17:14.902 LabApp] Jupyter Notebook 6.1.4 is running at:
+[I 00:17:14.902 LabApp] http://ab-ubuntu-vm-node7:8888/
+[I 00:17:14.902 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[E 00:17:16.933 LabApp] Fail to get yarn configuration. node:events:304
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:194:8)
+        at errorOrDestroy (node:internal/streams/destroy:257:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[I 00:17:17.494 LabApp] Build is up to date
+[W 00:17:17.497 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/setup_state.ipynb?content=0&1617805038251 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/setup_state.ipynb
+[W 00:17:17.497 LabApp] No such file or directory: docker-muse/tradeops/report/setup_state.ipynb
+[W 00:17:17.498 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/setup_state.ipynb?content=0&1617805038251 (192.168.0.52) 4.67ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.500 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/generate_charts.ipynb?content=0&1617805038252 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/generate_charts.ipynb
+[W 00:17:17.500 LabApp] No such file or directory: docker-muse/tradeops/report/generate_charts.ipynb
+[W 00:17:17.501 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/generate_charts.ipynb?content=0&1617805038252 (192.168.0.52) 6.27ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.506 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_special_reports.ipynb?content=0&1617805038253 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_special_reports.ipynb
+[W 00:17:17.506 LabApp] No such file or directory: docker-muse/tradeops/report/execute_special_reports.ipynb
+[W 00:17:17.507 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_special_reports.ipynb?content=0&1617805038253 (192.168.0.52) 1.58ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.509 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_core_trades.ipynb?content=0&1617805038254 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_core_trades.ipynb
+[W 00:17:17.510 LabApp] No such file or directory: docker-muse/tradeops/report/execute_core_trades.ipynb
+[W 00:17:17.510 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_core_trades.ipynb?content=0&1617805038254 (192.168.0.52) 2.59ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.512 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_core_market_trade.ipynb?content=0&1617805038255 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_core_market_trade.ipynb
+[W 00:17:17.512 LabApp] No such file or directory: docker-muse/tradeops/report/execute_core_market_trade.ipynb
+[W 00:17:17.512 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_core_market_trade.ipynb?content=0&1617805038255 (192.168.0.52) 1.72ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.514 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_sat_ax_can_trade.ipynb?content=0&1617805038256 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_sat_ax_can_trade.ipynb
+[W 00:17:17.515 LabApp] No such file or directory: docker-muse/tradeops/report/execute_sat_ax_can_trade.ipynb
+[W 00:17:17.515 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_sat_ax_can_trade.ipynb?content=0&1617805038256 (192.168.0.52) 2.39ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.517 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_trade_assist.ipynb?content=0&1617805038258 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_trade_assist.ipynb
+[W 00:17:17.517 LabApp] No such file or directory: docker-muse/tradeops/report/execute_trade_assist.ipynb
+[W 00:17:17.518 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_trade_assist.ipynb?content=0&1617805038258 (192.168.0.52) 1.82ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.520 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_sat_factor_trade.ipynb?content=0&1617805038259 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_sat_factor_trade.ipynb
+[W 00:17:17.520 LabApp] No such file or directory: docker-muse/tradeops/report/execute_sat_factor_trade.ipynb
+[W 00:17:17.520 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_sat_factor_trade.ipynb?content=0&1617805038259 (192.168.0.52) 2.18ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.522 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/run_trade_report.ipynb?content=0&1617805038260 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/run_trade_report.ipynb
+[W 00:17:17.522 LabApp] No such file or directory: docker-muse/tradeops/report/run_trade_report.ipynb
+[W 00:17:17.522 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/run_trade_report.ipynb?content=0&1617805038260 (192.168.0.52) 1.71ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.526 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/pre-execute_trade_assist-pre.ipynb?content=0&1617805038261 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/pre-execute_trade_assist-pre.ipynb
+[W 00:17:17.526 LabApp] No such file or directory: docker-muse/tradeops/report/pre-execute_trade_assist-pre.ipynb
+[W 00:17:17.526 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/pre-execute_trade_assist-pre.ipynb?content=0&1617805038261 (192.168.0.52) 1.70ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.527 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_my_trade.ipynb?content=0&1617805038262 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/execute_my_trade.ipynb
+[W 00:17:17.527 LabApp] No such file or directory: docker-muse/tradeops/report/execute_my_trade.ipynb
+[W 00:17:17.528 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/execute_my_trade.ipynb?content=0&1617805038262 (192.168.0.52) 1.27ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[W 00:17:17.529 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/signal_alert.py?content=0&1617805038264 (192.168.0.52): No such file or directory: docker-muse/tradeops/report/signal_alert.py
+[W 00:17:17.529 LabApp] No such file or directory: docker-muse/tradeops/report/signal_alert.py
+[W 00:17:17.530 LabApp] 404 GET /api/contents/docker-muse/tradeops/report/signal_alert.py?content=0&1617805038264 (192.168.0.52) 1.74ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+[E 00:17:17.818 LabApp] Fail to get yarn configuration. node:events:304
+          throw er; // Unhandled 'error' event
+          ^
+    
+    Error: EBADF: bad file descriptor, read
+    Emitted 'error' event on ReadStream instance at:
+        at emitErrorNT (node:internal/streams/destroy:194:8)
+        at errorOrDestroy (node:internal/streams/destroy:257:7)
+        at node:internal/fs/streams:193:9
+        at FSReqCallback.wrapper [as oncomplete] (node:fs:539:5) {
+      errno: -9,
+      code: 'EBADF',
+      syscall: 'read'
+    }
+    
+[W 00:17:18.127 LabApp] 404 GET /api/contents/docker-muse/tradeops/report?1617805039483 (192.168.0.52): No such file or directory: docker-muse/tradeops/report
+[W 00:17:18.127 LabApp] No such file or directory: docker-muse/tradeops/report
+[W 00:17:18.128 LabApp] 404 GET /api/contents/docker-muse/tradeops/report?1617805039483 (192.168.0.52) 2.28ms referer=http://ab-ubuntu-vm-node7:8888/lab?
+-\|/-\|/-\|/-\|/-\|/-[C 00:17:30.813 LabApp] received signal 15, stopping
+[I 00:17:30.815 LabApp] Shutting down 0 kernels
+[I 00:17:30.815 LabApp] Shutting down 0 terminals
